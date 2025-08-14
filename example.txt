@@ -1,0 +1,62 @@
+ example:
+
+         TIPI1    TIPI2     TIPI3      TIPI4     TIPI5     TIPI6     TIPI7     TIPI8     TIPI9     TIPI10
+           6        2        7           3         5         1         6         4         5         2
+
+
+-----------------------------
+planning & thinking:
+
+meaning of the value?? ----> scale from 0 to 7?
+1    Disagree strongly
+2	Disagree moderately 
+3	Disagree a little 
+4	Neither agree nor disagree 
+5	Agree a little 
+6	Agree moderately 
+7	Agree strongly
+
+what about the question: ----> connected with the big five traits, not mbti (note!)
+Extraversion ---> TIPI1
+** TIPI6 (Reserved, quiet)
+Agreeableness ---> TIPI7
+** TIPI2 (Critical, quarrelsome)
+Conscientiousness ---> TIPI3
+** TIPI8 (Disorganized, careless)
+Emotional Stability ---> TIPI9
+** TIPI4 (Anxious, easily upset)
+Openness to Experience ---> TIPI5
+** TIPI10 (Conventional, uncreative)
+
+---> the analytics in my example is: (to see if the model predict correct or not) 
+Extraversion:
+TIPI1 -> الانفتاح والحماس
+TIPI6 -> الانطوائية والهدوء
+Extraversion = 6 + (7 - 1) = 6 + 6 = 12
+
+Agreeableness:
+TIPI7 -> التعاطف والدفء
+TIPI2 -> النقد والعدوانية
+Agreeableness = 6 + (7 - 2) = 6 + 5 = 11
+
+Conscientiousness:
+TIPI3 -> الانضباط الذاتي والاعتماد على النفس
+TIPI8 -> الإهمال وعدم التنظيم
+Conscientiousness = 7 + (7 - 4) = 7 + 3 = 10
+
+Emotional Stability:
+TIPI4 -> الهدوء والثبات العاطفي
+TIPI9 -> القلق وسرعة الغضب
+Emotional Stability = 5 + (7 - 3) = 5 + 4 = 9
+
+Openness to Experience:
+TIPI5 -> الانفتاح على الأفكار الجديدة
+TIPI10 -> التمسك بالتقاليد وعدم الإبداع
+Openness = 5 + (7 - 2) = 5 + 5 = 10
+
+****** result: 
+Extraversion = 12
+Agreeableness = 11
+Conscientiousness = 10
+Emotional Stability = 9
+Openness = 10
